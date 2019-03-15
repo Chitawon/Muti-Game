@@ -10,8 +10,11 @@
 ## Statistics
 
 **Started:** 10th march 2019  
+
 **Completed:** work in progress 
+
 **Total Days:**  work in progress 
+
 **Main Language:** HTML, CSS, JavaScript  
  
 ## สิ่งทีต้องทำ
@@ -21,7 +24,7 @@
 "เติมเลยว่าขาดอะไรบ้าง"
 
 
-### Idea
+## Idea
 ***อยากได้อะไรเพิ่มเขียนลงไป***
 - โหมดผู้เล่น 3 คน
 - Platform เคลื่อนที่ไปมาได้
