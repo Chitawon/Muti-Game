@@ -163,8 +163,6 @@ Jumper.Play.prototype = {
     
     // wrap world coordinated so that you can warp from left to right and right to left
     this.world.wrap( this.hero, this.hero.width / 2, false );
-    this.world.wrap( this.hero2, this.hero2.width / 2, false );
-
     // track the maximum amount that the hero has travelled
     this.hero.yChange = Math.max( this.hero.yChange, Math.abs( this.hero.y - this.hero.yOrig ) );
     this.hero2.yChange = Math.max( this.hero2.yChange, Math.abs( this.hero2.y - this.hero2.yOrig ) );
