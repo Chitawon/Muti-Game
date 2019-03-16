@@ -5,7 +5,7 @@
 
 **Project Site:** https://github.com/Chitawon/Muti-Game
 
-**Last Updated:** 15th march 2019  
+**Last Updated:** 17th march 2019  
 
 **Project Status:** work in progress
 
@@ -20,11 +20,10 @@
 **Main Language:** HTML, CSS, JavaScript  
  
 ## สิ่งทีต้องทำ
-- ทำให้กล้องเลื่อนขึ้นเรี่อยๆ
-- การแสดงเวลา
+- การควบคุมตัวละคร
 - ขึ้นข้อความหลังจบเกม(ไม่ใช่ alert นะ)
-
-"เติมเลยว่าขาดอะไรบ้าง"
+- auto generate platform หรือ การสร้างแมพ
+- ตัวละครที่2
 
 
 
