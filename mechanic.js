@@ -3465,14 +3465,9 @@
                     up: this.addKey(b.Keyboard.UP),
                     down: this.addKey(b.Keyboard.DOWN),
                     left: this.addKey(b.Keyboard.LEFT),
-                    right: this.addKey(b.Keyboard.RIGHT),
-                    up2: this.addKey(b.Keyboard.W),
-                    down2: this.addKey(b.Keyboard.S),
-                    left2: this.addKey(b.Keyboard.A),
-                    right2: this.addKey(b.Keyboard.D)
+                    right: this.addKey(b.Keyboard.RIGHT)
                 }
             },
-
             start: function() {
                 if (null === this._onKeyDown) {
                     var a = this;
