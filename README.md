@@ -1,13 +1,13 @@
 # Jumping PVP-COOP game
-เกมแนว Platform เล่น 2 คน โดยให้กระโดดจนกว่าจะเหลือรอดคนสุดท้าย หรือจะช่วยกันให้ได้เวลานานที่สุด
+เกมแนว Platform เล่น 2 คน โดยให้กระโดดจนกว่าจะเหลือรอดคนสุดท้าย หรือ ไปให้ถึงเส้นชัยก่อน
 
 ## Information
 
 **Project Site:** https://github.com/Chitawon/Muti-Game
 
-**Last Updated:** 17th march 2019  
+**Last Updated:** 19th march 2019  
 
-**Project Status:** work in progress
+**Project Status:** Video present
 
 ## Statistics
 
@@ -20,17 +20,4 @@
 **Main Language:** HTML, CSS, JavaScript  
  
 ## สิ่งทีต้องทำ
-- การควบคุมตัวละคร
-- ขึ้นข้อความหลังจบเกม(ไม่ใช่ alert นะ)
-- auto generate platform หรือ การสร้างแมพ
-- ตัวละครที่2
-
-
-
-## Idea
-
-***อยากได้อะไรเพิ่มเขียนลงไป***
-
-- โหมดผู้เล่น 3 คน
-- Platform เคลื่อนที่ไปมาได้
-- Platform ที่เหยียบนานๆแล้วหายไป
+- วีดีโอแนะนำเกม
