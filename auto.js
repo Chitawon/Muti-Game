@@ -147,11 +147,17 @@ function component(width, height, color, x, y, type) {
       this.gravitySpeed -= 6;
       this.jump = false;
       }
-       if(this.x<=platform16.x+100&&this.x>=platform16.x-20&&this.y <= platform16.y +15&&this.y >= platform16.y-15&&this.jump == true){
+       if(hero1.x<=platform16.x+100&&hero1.x>=platform16.x-20&&hero1.y <= platform16.y +15&&hero1.y >= platform16.y-15&&hero1.jump == true){
       this.speedY = 0;
       this.gravitySpeed = 0;
       this.jump = false;
-      myGameArea.stop();
+      location.href = "over.html";
+      }
+      else if(hero2.x<=platform16.x+100&&hero2.x>=platform16.x-20&&hero2.y <= platform16.y +15&&hero2.y >= platform16.y-15&&hero2.jump == true){
+      this.speedY = 0;
+      this.gravitySpeed = 0;
+      this.jump = false;
+      location.href = "over2.html";
       }
       else if(hero1.y>580){
         location.href = "over2.html";
@@ -239,10 +245,10 @@ function updateGameArea() {
   hero1.speedY *= 0.9;
   hero2.speedX = 0;
   hero2.speedY *= 0.9;
-   if (myGameArea.key && myGameArea.key[65]) {hero1.speedX -= 2;}
-  if (myGameArea.key && myGameArea.key[68]) {hero1.speedX += 2;}
-  if (myGameArea.key && myGameArea.key[37]) {hero2.speedX -= 2;}
-  if (myGameArea.key && myGameArea.key[39]) {hero2.speedX += 2;}
+   if (myGameArea.key && myGameArea.key[65]) {hero1.speedX -= 3;}
+  if (myGameArea.key && myGameArea.key[68]) {hero1.speedX += 3;}
+  if (myGameArea.key && myGameArea.key[37]) {hero2.speedX -= 3;}
+  if (myGameArea.key && myGameArea.key[39]) {hero2.speedX += 3;}
     hero1.newPos();
   hero1.update();
   hero2.newPos();

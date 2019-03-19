@@ -6,9 +6,9 @@
 		<div class="name">Information</div>
 		<div class="move"></div>
 		<div class="move2"></div>
-		<div class="text">ขึ้น = กระโดด , ซ้าย ขวา = ควบคุมทิศทาง</div>
-		<div class="text2">W = กระโดด , A D = ควบคุมทิศทาง</div>
-		<a class="in" href="work.html">back</b>
+		<div class="text"> Player2: ซ้าย ขวา = ควบคุมทิศทาง</div>
+		<div class="text2">Player1:  A D = ควบคุมทิศทาง</div>
+		<button type="button" class="in" onclick="back()">Back</button>
 	</div>
 	<style type="text/css">
 	body{
@@ -21,7 +21,7 @@
 		text-align: center;
 		width: 50%;
 		height: 100vh;
-		background-image: url("./ป่างุด.jpg");
+		background-image: url("ป่างุด.jpg");
 		background-size: cover;
 		margin-left: 25%;
 	}
@@ -34,10 +34,11 @@
 		margin: auto;
 	}
 	.move{
-		background-image: url("./ลูกศร.jpg");
+		background-image: url("ลูกศร.jpg");
+		background-size: cover;
 		width: 14%;
 		height: 20vh;
-		position: fixed;
+		position: absolute;
 		top:100px;
 		margin-left: 10%;
 	}
@@ -48,16 +49,16 @@
 		background-color: white;
 		font-size: 40px;
 		color: red;
-		position: fixed;
+		position: absolute;
 		top: 320px;
 		left: 600px;
 
 	}
 	.move2{
-		background-image: url("./ลูกศร2.jpg");
+		background-image: url("ลูกศร2.jpg");
 		width: 14%;
 		height: 20vh;
-		position: fixed;
+		position: absolute;
 		top:400px;
 		margin-left: 10%;
 		background-size: cover;
@@ -69,7 +70,7 @@
 		background-color: white;
 		font-size: 40px;
 		color: red;
-		position: fixed;
+		position: absolute;
 		top: 620px;
 		left: 590px;
 
@@ -77,14 +78,15 @@
 	.in{
 		font-size: 40px;
 		color: red;
-		position: fixed;
-		top: 790px;
-		left: 1200px;
+		position: absolute;
+		top: 600px;
+		left:  0px;
 		z-index: 1;
 	}
 </style>
 </head>
 <body>
+	<script type="text/javascript">function back(){location.href = "jumping.html";}</script>
 	<embed name="music" loop=" " hidden="true" src="c2.mp3">
 </body>
 </html>
