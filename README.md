@@ -7,17 +7,14 @@
 
 **Last Updated:** 19th march 2019  
 
-**Project Status:** Video present
+**Project Status:** Completed
 
 ## Statistics
 
 **Started:** 10th march 2019  
 
-**Completed:** work in progress 
+**Completed:** 25th march 2019
 
-**Total Days:**  work in progress 
+**Total Days:** 15 day
 
 **Main Language:** HTML, CSS, JavaScript  
- 
-## สิ่งทีต้องทำ
-- วีดีโอแนะนำเกม
